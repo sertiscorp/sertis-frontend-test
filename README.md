@@ -6,11 +6,12 @@ If you feel that some information is missing for the exam, open an issue in the 
 
 ## Requirements
 ### (*** Limit Time: 1 hour 30 minutes.)
+### !!!! No need to implement user system just mock user from input field (like simple todos app)
 The application to be developed consists of a list of tasks following the wireframe and features below.
 <p align="center"><img src="https://a.imge.to/2019/07/02/3dRKA.png" alt="3dRKA.png" border="0" /></p>
 You are to create a working prototype (mock-up) of a mini-blog application, only card UI part (the area in blue border in an image below). You can choose any framework/tools as you wish for engine, look and feel.
 
-  
+
 
 The submission should be able to perform the following functions:
 	CRUD via `/cards` route
@@ -21,7 +22,7 @@ The submission should be able to perform the following functions:
 	- add card to local server by  POST ==> /cards
 3. Edit a card's name, status, and content. Only the author of the card can perform this function. Add ‘edit’ button to the left of status circle (top-right corner) for this function.
  	- update card to local server by PATH  ==> /cards/:id
- 
+
 4. Delete a card. Only the author of the card can perform this function. You are free to design the flow of card deletion as the picture does not indicate the flow.
  	- delete card from local server by DELETE ⇒ /cards/:id
 
@@ -128,9 +129,8 @@ return {
 # PS.
 Test measurement
 - function can get, create, update, delete
-- layout 
-- code style, code structure 
+- layout
+- code style, code structure
 
 
->If you have any questions, please do not hesitate to ask us anytime. Good luck!! 
-
+>If you have any questions, please do not hesitate to ask us anytime. Good luck!!
